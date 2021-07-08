@@ -5,11 +5,11 @@
 ## 使用方法
 
 1. `Fork` 仓库
-2. 设置仓库的 Actions Secrets <sup>[如何设置？](./how-to-enable-actions/#添加-Secrets)</sup>  
+2. 设置仓库的 Actions Secrets
    添加用户名 `USERNAME` 和密码 `PASSWORD`
    | Name | Value |
    | :---: | :---: |
    | USERNAME | Kindle4rss 用户名 |
    | PASSWORD | Kindle4rss 密码 |
-3. 开启 GitHub Actions <sup>[如何开启？](./how-to-enable-actions/#启用-Actions)</sup>
+3. 开启 GitHub Actions
 4. 每天 11:00 <sup>3:00 UTC</sup> 定时自动运行 
