@@ -10,6 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          pip install -r requirements.txt
-          python main.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
+      - run: pip install -r requirements.txt
+      - run: python main.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
