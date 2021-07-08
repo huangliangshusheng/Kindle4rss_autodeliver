@@ -1,13 +1,15 @@
 # Kindle4rss_autodeliver
 
-用于kindle4rss的免费推送脚本
+基于 GitHub Actions 的 kindle4rss 免费推送脚本。
 
-运行环境：
+## 使用方法
 
-python >= 3.6
-
-使用方法：
-
-pip install -r requirements.txt
-
-python main.py -u example@mail.com -p password
+1. `Fork` 仓库
+2. 设置仓库的 Actions Secrets <sup>[如何设置？](./how-to-enable-actions/#添加-Secrets)</sup>  
+   添加用户名 `USERNAME` 和密码 `PASSWORD`
+   | Name | Value |
+   | :---: | :---: |
+   | USERNAME | Kindle4rss 用户名 |
+   | PASSWORD | Kindle4rss 密码 |
+3. 开启 GitHub Actions <sup>[如何开启？](./how-to-enable-actions/#启用-Actions)</sup>
+4. 每天 11:00 <sup>3:00 UTC</sup> 定时自动运行 
