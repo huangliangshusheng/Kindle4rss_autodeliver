@@ -17,7 +17,7 @@ def push(emailAddress, password):
     session.headers = headers
     session.post('https://kindle4rss.com/login/', data=data)
     time.sleep(5)
-    r = session.post('https://inkread.com/send_now/')
+    r = session.post('https://kindle4rss.com/send_now/')
     return r.status_code
 
 if __name__ == "__main__":
